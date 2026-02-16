@@ -1,0 +1,2 @@
+#!/bin/bash
+clang -s -masm=intel $CFILE -o ${CFILE//'.c'/'.s'}
